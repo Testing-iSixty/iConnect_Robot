@@ -7564,15 +7564,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Peter\\.nuget\\packages\\": {}
+    "C:\\Users\\Boyd Dell\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "iConnect_Robot",
       "projectName": "iConnect_Robot",
-      "projectPath": "C:\\Users\\Peter\\Documents\\GitHub\\iConnect_Robot\\.local",
-      "packagesPath": "C:\\Users\\Peter\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Peter\\Documents\\GitHub\\iConnect_Robot\\.local"
+      "projectPath": "C:\\Users\\Boyd Dell\\Documents\\GitHub\\iConnect_Robot\\.local",
+      "packagesPath": "C:\\Users\\Boyd Dell\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Boyd Dell\\Documents\\GitHub\\iConnect_Robot\\.local"
     },
     "frameworks": {
       "net461": {
@@ -7598,7 +7598,7 @@
             "version": "[21.10.4, 21.10.4]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\Peter\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\Boyd Dell\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
       }
     },
     "runtimes": {
