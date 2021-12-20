@@ -78,7 +78,6 @@
       <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
       <AssemblyReference>System.Memory</AssemblyReference>
       <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <sap:WorkflowViewStateService.ViewState>
@@ -169,7 +168,7 @@
               <av:PointCollection x:Key="ConnectorLocation">430,220 260,220</av:PointCollection>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Sequence DisplayName="Get Company" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_11">
+          <Sequence DisplayName="Get Company" sap:VirtualizedContainerService.HintSize="476,1177" sap2010:WorkflowViewState.IdRef="Sequence_11">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -191,7 +190,7 @@
                         <x:Boolean x:Key="IsPinned">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ui:ReadCell Cell="A1" DisplayName="Read Cell" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="ReadCell_3" SheetName="Sheet2" WorkbookPath="Files\Read.xlsx">
+                    <ui:ReadCell Cell="A1" DisplayName="Read Cell" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="ReadCell_3" SheetName="Company Name" WorkbookPath="Files\Read.xlsx">
                       <ui:ReadCell.Result>
                         <OutArgument x:TypeArguments="x:String">[CompanyName]</OutArgument>
                       </ui:ReadCell.Result>
@@ -721,11 +720,7 @@
               </ActivityAction.Argument>
               <Sequence DisplayName="Do Login" sap:VirtualizedContainerService.HintSize="376,868" sap2010:WorkflowViewState.IdRef="Sequence_15">
                 <Sequence.Variables>
-                  <Variable x:TypeArguments="x:Int32" Name="VAR1">
-                    <Variable.Default>
-                      <Literal x:TypeArguments="x:Int32" Value="69" />
-                    </Variable.Default>
-                  </Variable>
+                  <Variable x:TypeArguments="x:Int32" Default="69" Name="VAR1" />
                   <Variable x:TypeArguments="x:String" Name="Username" />
                   <Variable x:TypeArguments="x:String" Name="Password" />
                 </Sequence.Variables>
@@ -735,7 +730,7 @@
                     <x:Boolean x:Key="IsPinned">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <ui:ReadCell Cell="A1" DisplayName="Read Cell" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="ReadCell_4" SheetName="Sheet1" WorkbookPath="Files\Read.xlsx">
+                <ui:ReadCell Cell="A1" DisplayName="Read Cell" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="ReadCell_4" SheetName="Username and Password" WorkbookPath="Files\Read.xlsx">
                   <ui:ReadCell.Result>
                     <OutArgument x:TypeArguments="x:String">[Username]</OutArgument>
                   </ui:ReadCell.Result>
@@ -745,7 +740,7 @@
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                 </ui:ReadCell>
-                <ui:ReadCell Cell="B1" DisplayName="Read Cell" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="ReadCell_5" SheetName="Sheet1" WorkbookPath="Files\Read.xlsx">
+                <ui:ReadCell Cell="B1" DisplayName="Read Cell" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="ReadCell_5" SheetName="Username and Password" WorkbookPath="Files\Read.xlsx">
                   <ui:ReadCell.Result>
                     <OutArgument x:TypeArguments="x:String">[Password]</OutArgument>
                   </ui:ReadCell.Result>
